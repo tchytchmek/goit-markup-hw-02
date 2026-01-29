@@ -1,8 +1,17 @@
 body{
     font-family: 'Roboto','Raleway', sans-serif;
     background-color: #FFFFFF;
-    letter-spacing: 2%;
+    letter-spacing: em;
     color:#2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    line-height: 1.2;
 }
 a{
     text-decoration: none;
@@ -20,6 +29,8 @@ ul, ol{
     color:#4D5AE5;
     font-size: 18px;
     text-transform: uppercase;
+    line-height: 1.14;
+    letter-spacing: 3%;
 }
 .logo-accent{
     font-family:'Raleway', sans-serif;
@@ -28,11 +39,12 @@ ul, ol{
     line-height: 1.14;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 3%;
 }
 .logo-accent2{
     font-family:'Raleway', sans-serif;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #F4F4FD;
     line-height: 1.14;
     font-size: 18px;
     text-transform: uppercase;
@@ -41,12 +53,22 @@ ul, ol{
     color:#2E2F42;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+.navigation:hover, .navigation:focus{
+    color:#E7E9FC;
 }
 .contacts{
     font-weight: 400;
     color: #434455;
     font-style: normal;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+.contacts:focus, .contacts:hover{
+    color:#E7E9FC;
 }
 .main-section{
     background-color: #2E2F42;
@@ -67,6 +89,17 @@ ul, ol{
     text-align: center;
     font-family: 'Roboto';
 }
+.order:hover, .order:focus{
+    background-color: #E7E9FC;
+}
+
+.feautures-text{
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 1.2;
+ letter-spacing: 2%;
+ color:#434455
+}
 .team-section{
     background-color: #F4F4FD;
 }
@@ -75,6 +108,7 @@ ul, ol{
     font-size: 36px;
     line-height: 1.11111111111;
     text-align: center;
+    letter-spacing: 2%;
 }
 .workers{
     background-color: #FFFFFF;
@@ -90,13 +124,25 @@ ul, ol{
     font-weight: 400;
     text-align: center;
     line-height: 1.5;
+    color:#434455;
 }
 
+.portfolio-section{
+    /* background-color: #E7E9FC; */
+}
+
+.portfolio-text{
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
 .slogan{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 
 .footer{
